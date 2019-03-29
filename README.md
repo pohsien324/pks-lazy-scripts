@@ -31,10 +31,9 @@ The easy way to operate BOSH functions.
 $ cd pks-lazy-scripts
 $ source bosh/bosh_operator.sh
 ```
-![](https://i.imgur.com/5O9AdH9.gif =882x500)
+<img src="https://i.imgur.com/5O9AdH9.gif" width="800" height="500">
 
 ## NSX-T
-
 #### Setting the NSX-T Management-Cluster and Control-Cluster.
 [https://docs.pivotal.io/runtimes/pks/1-2/nsxt-prepare-env.html#nsx-clusters](https://docs.pivotal.io/runtimes/pks/1-2/nsxt-prepare-env.html#nsx-clusters)
 ```{bash}
