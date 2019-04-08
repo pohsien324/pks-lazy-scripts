@@ -4,7 +4,7 @@ The simple linux scripts to reduce complex operations when deploy the Pivotal Co
 Official document - [https://docs.pivotal.io/runtimes/pks/1-3/](https://docs.pivotal.io/runtimes/pks/1-3/)
 
 ## Requirement
-These scripts must to executed on the host which can access to the PCF Ops Manager/BOSH/PKS/NSX-T.
+These scripts must executed on the host which can access to the PCF Ops Manager/BOSH/PKS/NSX-T.
 
 
 ## BOSH
