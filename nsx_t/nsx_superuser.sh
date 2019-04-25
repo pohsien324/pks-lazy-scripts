@@ -1,8 +1,9 @@
+#!/bin/bash
 #-------------------------
 #  Import the superuser certificate into NSX-T when PKS installation.
 #  https://docs.pivotal.io/runtimes/pks/1-3/generate-nsx-pi-cert.html
 # 
-#  Last modify: 2019/03/28
+#  Last modify: 2019/04/22
 #  last modifier: pohsien
 #-------------------------
 

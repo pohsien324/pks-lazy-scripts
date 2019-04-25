@@ -4,13 +4,8 @@ The simple linux scripts to reduce complex operations when deploy the Pivotal Co
 Official document - [https://docs.pivotal.io/runtimes/pks/1-3/](https://docs.pivotal.io/runtimes/pks/1-3/)
 
 ## Requirement
-These scripts must executed on the host which can access to the PCF Ops Manager/BOSH/PKS/NSX-T.
+These scripts must to executed on the `Ubuntu` host which can access to the PCF Ops Manager/BOSH/PKS/NSX-T.
 
-## Environment
-* NSX-T 2.3.0
-* Ops Manager 2.4-build.171
-* BOSH 2.4-build.171
-* PKS 1.3.5-build.3
 
 ## BOSH
 #### BOSH CLI Authentication.
@@ -18,11 +13,11 @@ These scripts must executed on the host which can access to the PCF Ops Manager/
 $ cd pks-lazy-scripts
 $ source bosh/bosh_cli_auth.sh
 ```
-> This script will automatically set the BOSH environment variables after complete.
+> The script will automatic set the BOSH environment variables after complete.
 >
 You can also manually set the BOSH environment variables.
 ```{bash}
-$ source new_bosh_env.sh
+$ source set_bosh_env.sh
 ```
 #### BOSH SSH
 ```{bash}
@@ -36,9 +31,10 @@ The easy way to operate BOSH functions.
 $ cd pks-lazy-scripts
 $ source bosh/bosh_operator.sh
 ```
-<img src="https://i.imgur.com/5O9AdH9.gif" width="800" height="500">
+![](https://i.imgur.com/5O9AdH9.gif =882x500)
 
 ## NSX-T
+
 #### Setting the NSX-T Management-Cluster and Control-Cluster.
 [https://docs.pivotal.io/runtimes/pks/1-2/nsxt-prepare-env.html#nsx-clusters](https://docs.pivotal.io/runtimes/pks/1-2/nsxt-prepare-env.html#nsx-clusters)
 ```{bash}

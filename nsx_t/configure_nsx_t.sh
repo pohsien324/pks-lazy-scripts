@@ -1,8 +1,9 @@
+#!/bin/bash
 #-------------------------
 #  Setting the NSX-T Management-Cluster and Control-Cluster. 
 #  https://docs.pivotal.io/runtimes/pks/1-2/nsxt-prepare-env.html#nsx-clusters
 #
-#  Last modify: 2019/03/28
+#  Last modify: 2019/04/22
 #  last modifier: pohsien
 #-------------------------
 

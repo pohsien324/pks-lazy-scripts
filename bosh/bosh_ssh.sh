@@ -1,7 +1,8 @@
+#!/bin/bash
 #-------------------------
 #  The easy way to ssh into BOSH Director VM. 
 # 
-#  Last modify: 2019/03/28
+#  Last modify: 2019/04/22
 #  last modifier: pohsien
 #-------------------------
 
