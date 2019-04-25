@@ -6,6 +6,11 @@ Official document - [https://docs.pivotal.io/runtimes/pks/1-3/](https://docs.piv
 ## Requirement
 These scripts must to executed on the `Ubuntu` host which can access to the PCF Ops Manager/BOSH/PKS/NSX-T.
 
+## Environment
+* NSX-T 2.3.0
+* Ops Manager 2.4-build.171
+* BOSH 2.4-build.171
+* PKS 1.3.5-build.3
 
 ## BOSH
 #### BOSH CLI Authentication.
@@ -13,7 +18,7 @@ These scripts must to executed on the `Ubuntu` host which can access to the PCF 
 $ cd pks-lazy-scripts
 $ source bosh/bosh_cli_auth.sh
 ```
-> The script will automatic set the BOSH environment variables after complete.
+> This script will automatically set the BOSH environment variables after complete.
 >
 You can also manually set the BOSH environment variables.
 ```{bash}
@@ -31,7 +36,8 @@ The easy way to operate BOSH functions.
 $ cd pks-lazy-scripts
 $ source bosh/bosh_operator.sh
 ```
-![](https://i.imgur.com/5O9AdH9.gif =882x500)
+<img src="https://i.imgur.com/5O9AdH9.gif" width="800" height="500">
+
 
 ## NSX-T
 
