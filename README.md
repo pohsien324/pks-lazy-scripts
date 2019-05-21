@@ -4,7 +4,7 @@ The simple linux scripts to reduce complex operations when deploy the Pivotal Co
 Official document - [https://docs.pivotal.io/runtimes/pks/1-3/](https://docs.pivotal.io/runtimes/pks/1-3/)
 
 ## Requirement
-These scripts must to executed on the `Ubuntu` host which can access to the PCF Ops Manager/BOSH/PKS/NSX-T.
+These scripts must be executed on the `Ubuntu` host which can access to the PCF Ops Manager/BOSH/PKS/NSX-T.
 
 ## Environment
 * NSX-T 2.3.0
@@ -18,7 +18,7 @@ These scripts must to executed on the `Ubuntu` host which can access to the PCF 
 $ cd pks-lazy-scripts
 $ source bosh/bosh_cli_auth.sh
 ```
-> This script will automatically set the BOSH environment variables after complete.
+> This script will automatically set the BOSH environment variables after execution.
 >
 You can also manually set the BOSH environment variables.
 ```{bash}
